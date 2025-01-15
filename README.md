@@ -13,10 +13,10 @@
 
 ### Paleta de colores
 - .color1 { #39b1a1 };
-.color2 { #95d9d5 };
-.color3 { #040c1c };
-.color4 { #62999d };
-.color5 { #b2c7c8 };
+- .color2 { #95d9d5 };
+- .color3 { #040c1c };
+- .color4 { #62999d };
+- .color5 { #b2c7c8 };
 
 ### Fuente
 [Signika Negative](https://fonts.google.com/specimen/Signika+Negative?categoryFilters=Sans+Serif:%2FSans%2FHumanist)
