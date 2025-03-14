@@ -1,6 +1,6 @@
 # DPFS-VaninaFuentes
 - DPFS-VaninaFuentes Este proyecto de mates, que conecta artesanos, emprendedores y amantes de esta tradición con productos únicos y personalizados. La plataforma ofrece una experiencia cultural, destacando la historia y el diseño de cada mate, además de incluir accesorios y elementos relacionados con el ritual del mate.
-![](https://i.pinimg.com/736x/6c/b5/c7/6cb5c784cc803670c7f3e8fed509e7b9.jpg)
+![](https://raw.githubusercontent.com/vaninafuentes/DPFS-VaninaFuentes/refs/heads/main/info/desing/logo.png)
 
 ### Páginas de referencia
 - [Unmate.com.ar](https://www.un-mate.com.ar/)
@@ -18,4 +18,8 @@
 
 ### Fuente
 [Signika Negative](https://fonts.google.com/specimen/Signika+Negative?categoryFilters=Sans+Serif:%2FSans%2FHumanist)
+
+### Wireframe
+[Wireframe Miro](https://miro.com/app/board/uXjVLtZXyzg=/?share_link_id=876950347457)
+
 #### Vanina Fuentes
