@@ -22,4 +22,7 @@
 ### Wireframe
 [Wireframe Miro](https://miro.com/app/board/uXjVLtZXyzg=/?share_link_id=876950347457)
 
+### Tablero de trabajo
+[Trello](https://trello.com/invite/b/6778a7284ee9880543ced72e/ATTIaa63ceb94f1e0f7da0b6e4f4725bbf823039EC0A/dpfs-vaninafuentesp1)
+
 #### Vanina Fuentes
