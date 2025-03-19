@@ -44,17 +44,46 @@
 
             <div>
                 <label for="descripcion">Descripción</label>
-                <textarea name="descripcion" id="descripcion" placeholder="material premiun"> </textarea>
+                <textarea name="descripcion" id="descripcion" placeholder="material premiun"></textarea>
             </div>
 
             <div>
-                <label for="">categoria</label>
-                <select name="" id="">
-                    <option value=""></option>
-                    <option value=""></option>
-                    <option value=""></option>
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                    <option selected disabled>Selecciona una opción</option>
+                    <option value="Mates">Mates</option>
+                    <option value="bombillas">Bombillas</option>
+                    <option value="yerbas">Yerbas</option>
+                    <option value="materas">Materas</option>
+                    <option value="termos">Termos</option>
                 </select>
             </div>
+
+            <div>
+                <label for="material">Categoria</label>
+                <select name="material" id="material">
+                    <option selected disabled>Selecciona una opción</option>
+                    <option value="calabaza">Calabaza</option>
+                    <option value="madera">Madera</option>
+                    <option value="acero">Acero</option>
+                    <option value="alpaca">Alpaca</option>
+                    <option value="cuero">Cuero</option>
+                    <option value="deluxe">Deluxe</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="precio">Precio</label>
+                <input type="number" name="precio" id="precio">
+            </div>
+
+            <div>
+                <label for="disponible">Disponible</label>
+                <input type="checkbox" name="disponible" id="disponible">
+            </div>
+
+            <button type="submit">Crear</button>
+
         </main>
         <!-- Footer -->
         <footer>
