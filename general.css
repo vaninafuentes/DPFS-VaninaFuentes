@@ -1,0 +1,54 @@
+:root {
+    --green_light:  #abba79 ;
+    --secondary:  #b95803 ;
+    --color3:  #bc6c25 ;
+    --color4:  #283618 ;
+    --color5:  #ccc9b4 ;
+    --primary:  #e3ac6d ;
+    --base:    #fefae0;
+    --black:  #000000; 
+}
+
+body {
+    background-color: var(--base);
+    font-family: "Noto Serif", serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.navbar__top {
+    background-color: var(--green_light);
+}
+
+.top__icon {
+    color: var(--secondary);
+    font-size: 18px;
+}
+
+.navbar__bottom {
+    background-color: var(--primary);
+}
+
+.navbar__logo {
+    width: 140px;
+}
+
+.navbar__links {
+    color: var(--black);
+    font-size: 17px;
+}
+
+.footer {
+    background-color: var(--primary);
+}
+
+.footer a {
+    font-size: 18px;
+}

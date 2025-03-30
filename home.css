@@ -1,0 +1,37 @@
+:root {
+    --green_light:  #abba79 ;
+    --secondary:  #b95803 ;
+    --color3:  #bc6c25 ;
+    --color4:  #283618 ;
+    --color5:  #bdb68c ;
+    --primary:  #e3ac6d ;
+    --base:    #fefae0;
+    --black:  #000000; 
+    --white:  #ffffff;
+}
+.banner {
+    height:403px;
+    width: 740px;
+    background-image: url(./imagenes/Banner.png);
+    background-size: cover;
+
+}
+
+.banner button {
+    background-color: var(--color5);
+    color: var(--black);
+    font-size: 18px;
+
+}
+
+.card img {
+    width: 210px;
+    height: 300px;
+
+}
+
+.btn {
+    background-color: var(--color5);
+    color: var(--black);
+    font-size: 17px;
+}

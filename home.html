@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entre Mates</title>
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="./general.css">
+    <link rel="stylesheet" href="./home.css">
+
      <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
         <!-- Navbar -->
-        <nav>
-         <div>
+        <nav class="navbar">
+        <div class="navbar__top">
             <input type="text" placeholder="Mate..."> 
-            <ul type="none"> <!--REEMPLAZAR TYPE POR CSS-->
+
+            <ul class="top__icon"> 
                 <li>
                     <i class="fa-solid fa-envelope"></i></li>
                 <li>
@@ -21,82 +33,81 @@
                     <i class="fa-solid fa-circle-user"></i></li>
             </ul>
         </div>
-        <div>
-            <img src="./imagenes/Logo.png" width="120" alt="Logo"> <!--REEMPLAZAR WIDTH POR CSS-->
-            <ul type="none">
-                <li>Modelos</li>
-                <li>bombillas</li>
-                <li>Yerba</li>
-                <li>Matera</li>
-                <li>Termos</li>
+        <div class="navbar__bottom">
+            <img class="navbar__logo" src="./imagenes/Logo.png" width="120" alt="Logo"> <!--REEMPLAZAR WIDTH POR CSS-->
+        <ul class="navbar__links">
+                <li><a href="https://facebook.com">Modelos</a></li>
+                <li><a href="https://facebook.com">bombillas</a></li>
+                <li><a href="https://facebook.com">Yerba</a></li>
+                <li><a href="https://facebook.com">Matera</a></li>
+                <li><a href="https://facebook.com">Termos</a></li>
         </ul>
             <p>Listado de links (Modelos, bombillas, yerba, matera, termo)</p>
         </div>
         </nav>
         <!-- Main -->
         <main>
-        <section>
-            <img src="./imagenes/banner.jpg" height="300px" alt="bannerMates">
-            <h3>¡Que no se te enfríe la charla! 🍃 Agarrá tu mate y compartí un momento único con amigos. ¡Es tiempo de conectar y disfrutar! 🌿☕</h3>
+         <section class="banner">
+            <h4>¡Que no se te enfríe la charla! 🍃 Agarrá tu mate y compartí un momento único con amigos. ¡Es tiempo de conectar y disfrutar! 🌿☕</h4>
             <button>Click aquí</button>
-        </section>
-
-        <section>
+         </section>
+         <section>
             <h3>Modelos exclusivos</h3>
-            <article>
-                <img src="./imagenes\products\32f0b63784bf15df719f88ddfacbe7c526e7e69700bae4f5b2870fdb420ad98c19762.jpg" height="300px" width="200px" alt="Product -imagen">
+
+            <article class="card">
+                <img src="./imagenes\products\32f0b63784bf15df719f88ddfacbe7c526e7e69700bae4f5b2870fdb420ad98c19762.jpg" alt="Product -imagen">
                 <h4>TORPEDO ANIMAL PRINT PREMIUN</h4>
                 <p>$35.000,00</p>
             </article>
 
-            <article>
-                <img src="./imagenes\products\34370565a5b0c7f52288f6b6ed1c86228d35bcae32fb0753c89d0d8399fe262219762.jpg" height="270px" width="200px" alt="Product-imagen">
+            <article class="card">
+                <img src="./imagenes\products\34370565a5b0c7f52288f6b6ed1c86228d35bcae32fb0753c89d0d8399fe262219762.jpg" alt="Product-imagen">
                 <h4>MATE DE ALGARROBO MUU</h4>
                 <p>$35.000,00</p>
             </article>
 
-            <article>
-                <img src="./imagenes\products\a9dcd3a63902b75e87f05a4c875b7406cc5738c8ad11d72c79315b59f82b16e419762.jpg" height="270px" width="200px"  alt="Product-imagen">
+            <article class="card">
+                <img src="./imagenes\products\a9dcd3a63902b75e87f05a4c875b7406cc5738c8ad11d72c79315b59f82b16e419762.jpg" alt="Product-imagen">
                 <h4>MATE DE ALGARROBO ORGÁNICO</h4>
                 <p>$35.000,00</p>
             </article>
 
-            <article>
-                <img src="./imagenes\products\bf713c33493fd8c1bf2ff036f99c922c674830b64564d41fd44f63eeacec9f9019762.jpg" height="270px" width="200px" alt="Product-imagen">
+            <article class="card">
+                <img src="./imagenes\products\bf713c33493fd8c1bf2ff036f99c922c674830b64564d41fd44f63eeacec9f9019762.jpg" alt="Product-imagen">
                 <h4>IMPERIAL PREMIUN PERSONALIZADO</h4>
                 <p>$35.000,00</p>
             </article>
 
-            <button>Más modelos</button>
+            <button class="btn">Más modelos</button>
 
         <h3>Más modelos</h3>
-        <article>
-            <img src="./imagenes\products\99ceec132e6e5b29aa2c8d2d118899a745bcd360b0199441b7314e7c902f910c19762.jpeg" height="300px" width="200px" alt="Product -imagen">
+        <article class="card">
+            <img src="./imagenes\products\99ceec132e6e5b29aa2c8d2d118899a745bcd360b0199441b7314e7c902f910c19762.jpeg" alt="Product -imagen">
             <h4>MATE CAMIONERO VINTAGE</h4>
                 <p>$35.000,00</p>
         </article>
 
-        <article>
-            <img src="./imagenes\products\imperial algarrobo encerado.jpg" height="300px" width="200px" alt="Product -imagen">
+        <article class="card">
+            <img src="./imagenes\products\imperial algarrobo encerado.jpg" alt="Product -imagen">
             <h4>IMPERIAL ALGARROBO ENCERADO</h4>
                 <p>$35.000,00</p>
         </article>
 
-        <article>
-            <img src="./imagenes\products\stanley rosa.jpg" height="300px" width="200px" alt="Product -imagen">
+        <article class="card">
+            <img src="./imagenes\products\stanley rosa.jpg" alt="Product -imagen">
             <h4>MATE STANLEY ROSA</h4>
                 <p>$35.000,00</p>
         </article>
-        <article>
-            <img src="./imagenes/products/e1bda7d6fbf70e06e5e0c0bce756cece67e7d70c6fdf834ea8f6f3d30206618f19762 (1).jpeg" height="300px" width="200px" alt="Product -imagen">
+        <article class="card">
+            <img src="./imagenes/products/e1bda7d6fbf70e06e5e0c0bce756cece67e7d70c6fdf834ea8f6f3d30206618f19762 (1).jpeg" alt="Product -imagen">
             <h4>MATE IMPERIAL PREMIUN (guarda PAMPA)</h4>
                 <p>$40.000,00</p>
         </article>
-        <button>Explorar más modelos</button>
+        <button class="btn">Explorar más modelos</button>
 
          </main>
         <!-- Footer -->
-        <footer>
+        <footer class="footer">
             <a href="">EntreMates.com.ar</a>
             <ul type="none">
                 <li><a href="https://google.com.ar" target="_blank">Link1</a></li>
@@ -105,15 +116,10 @@
                 <li><a href="https://google.com.ar" target="_blank">Link4</a></li>
             </ul>
             <ul type="none">
-            <li>
-                <i class="fa-brands fa-instagram"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-facebook"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-whatsapp"></i>
-            </li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-whatsapp"></i>
+</li>
             </ul>
         </footer>
     </body>

@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entre Mates</title>
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="./general.css">
+    <link rel="stylesheet" href="./home.css">
+
      <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
         <!-- Navbar -->
-        <nav>
-         <div>
+        <nav class="navbar">
+        <div class="navbar__top">
             <input type="text" placeholder="Mate..."> 
-            <ul type="none"> <!--REEMPLAZAR TYPE POR CSS-->
+
+            <ul class="top__icon"> 
                 <li>
                     <i class="fa-solid fa-envelope"></i></li>
                 <li>
@@ -21,15 +33,16 @@
                     <i class="fa-solid fa-circle-user"></i></li>
             </ul>
         </div>
-        <div>
-            <img src="./imagenes/Logo.png" width="120" alt="Logo"> <!--REEMPLAZAR WIDTH POR CSS-->
-            <ul type="none">
-                <li>Modelos</li>
-                <li>bombillas</li>
-                <li>Yerba</li>
-                <li>Matera</li>
-                <li>Termos</li>
+        <div class="navbar__bottom">
+            <img class="navbar__logo" src="./imagenes/Logo.png" width="120" alt="Logo"> <!--REEMPLAZAR WIDTH POR CSS-->
+        <ul class="navbar__links">
+                <li><a href="https://facebook.com">Modelos</a></li>
+                <li><a href="https://facebook.com">bombillas</a></li>
+                <li><a href="https://facebook.com">Yerba</a></li>
+                <li><a href="https://facebook.com">Matera</a></li>
+                <li><a href="https://facebook.com">Termos</a></li>
         </ul>
+            <p>Listado de links (Modelos, bombillas, yerba, matera, termo)</p>
         </div>
         </nav>
         <!-- Main -->
@@ -73,6 +86,12 @@
             </div>
 
             <div>
+                <label for="img">Imagen</label>
+                <input type="file" accept="image/*">
+
+            </div>
+
+            <div>
                 <label for="precio">Precio</label>
                 <input type="number" name="precio" id="precio">
             </div>
@@ -86,7 +105,7 @@
 
         </main>
         <!-- Footer -->
-        <footer>
+        <footer class="footer">
             <a href="">EntreMates.com.ar</a>
             <ul type="none">
                 <li><a href="https://google.com.ar" target="_blank">Link1</a></li>
@@ -95,16 +114,11 @@
                 <li><a href="https://google.com.ar" target="_blank">Link4</a></li>
             </ul>
             <ul type="none">
-            <li>
-                <i class="fa-brands fa-instagram"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-facebook"></i>
-            </li>
-            <li>
-                <i class="fa-brands fa-whatsapp"></i>
-            </li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-brands fa-whatsapp"></i></li>
             </ul>
         </footer>
+    </body>
     </body>
 </html>

@@ -10,11 +10,12 @@
 - [Matesur.net](https://www.matesur.net/?srsltid=AfmBOopoaEJuYzXTROcpZHdvLPpMAIqMBqKIREt4rq6DSW1fFp0kU1Wt)
 
 ### Paleta de colores
-- .color1 { #ce7c2f };
-- .color2 { #f8ce7b };
-- .color3 { #76441c };
-- .color4 { #a7764e };
-- .color5 { #ccc4ad };
+    --color1:  #606c38 ;
+    --color2:  #e6842d ;
+    --color3:  #bc6c25 ;
+    --color4:  #283618 ;
+    --color5:  #ccc9b4 ;
+    --color6:  #dda15e ;
 
 ### Fuente
 [Signika Negative](https://fonts.google.com/specimen/Signika+Negative?categoryFilters=Sans+Serif:%2FSans%2FHumanist)
